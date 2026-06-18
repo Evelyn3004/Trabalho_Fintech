@@ -1,0 +1,40 @@
+/* CUSTOM BRAND STYLING & OVERRIDES FOR FINTECH ECOSYSTEM */
+
+/* Font Configuration Fallback & Aesthetics */
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #0f0f11;
+}
+
+/* Custom layout behaviors for responsiveness */
+@media (min-width: 768px) {
+    .dynamic-layout {
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+
+/* Custom Scrollbar styling for a premium modern finish */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #0f0f11;
+}
+::-webkit-scrollbar-thumb {
+    background: #27272a;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #3f3f46;
+}
+
+/* Smooth transformations for interactable UI cards */
+.bg-zinc-900\/60 {
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.bg-zinc-900\/60:hover {
+    transform: translateY(-2px);
+}
